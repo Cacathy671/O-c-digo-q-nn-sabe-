@@ -1,20 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <locale.h>
-
-#ifdef _WIN32
-#include <windows.h>
-#endif
 int main(){
-    
     // item = o nome quantidade = quanto q tem remover= item q se remove 
-    
-
     int X, quantidade, remover;
     char item[50];
     char busca[50];
-    setlocale(LC_ALL, "");
     char continuar;
 do{
 printf("================================\n      Controle de Estoque\n================================\n");
