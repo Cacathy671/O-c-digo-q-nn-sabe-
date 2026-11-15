@@ -1,0 +1,4 @@
+*.exe
+#pra n subir excutaveis 
+*.obj
+#pra n subir arquivos de objeto'
